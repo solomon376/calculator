@@ -1,0 +1,51 @@
+/* General styling */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Display styling */
+.display {
+    -fx-font-size: 22px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 5;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 18px;
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-cursor: hand;
+    -fx-pref-width: 60;
+    -fx-pref-height: 60;
+}
+
+/* Hover effect */
+.button:hover {
+    -fx-background-color: #d5d5d5;
+}
+
+/* Operator buttons (+, -, ×, ÷) */
+.operator {
+    -fx-background-color: #ff9800;
+    -fx-text-fill: white;
+}
+
+.operator:hover {
+    -fx-background-color: #e68900;
+}
+
+/* Equals button */
+.equals {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+}
+
+.equals:hover {
+    -fx-background-color: #43a047;
+}
